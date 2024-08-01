@@ -1,0 +1,89 @@
+# Sistema
+*.DS_Store
+*.egg
+*.egg-info
+*.egg-info/
+*.swp
+._*
+Thumbs.db
+
+# Diretórios Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Diretórios do projeto Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Diretórios de desenvolvimento
+build/
+dist/
+*.egg-info/
+.eggs/
+parts/
+var/
+develop-eggs/
+.eggs/
+lib/
+lib64/
+*.coverage
+.coverage.*
+.cache
+.tox
+.nox
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+instance/
+.webassets-cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Diretórios específicos do Django
+media/
+staticfiles/
+static/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Arquivos e diretórios específicos do sistema operacional
+Desktop.ini
+.DS_Store
+
+# Arquivos e diretórios específicos do virtualenv
+venv/
+ENV/
+env/
+.env/
+
+# Arquivos e diretórios de dependências
+*.pyo
+*.pyd
+*.whl
+*.log
+
+# Arquivos de migrações do Django (opcional)
+**/migrations/*
+
+# Arquivos de configuração local
+local_settings.py

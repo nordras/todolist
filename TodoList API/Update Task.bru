@@ -1,0 +1,19 @@
+meta {
+  name: Update Task
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://127.0.0.1:8000/api/tasks/{id}/
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {"title": "Tarefa Atualizada", "description": "Descrição atualizada", "completed": true}
+}
